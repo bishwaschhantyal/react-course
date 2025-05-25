@@ -5,7 +5,16 @@ export default function Counter() {
 
     let [count, counter] = useState(0)
     const add = () => {
-        counter(count + 1)
+        // counter(count + 1)
+        // counter(count + 1)
+        // counter(count + 1)
+        // counter(count + 1)
+
+        
+        counter(prevCount  => prevCount + 1)
+        counter(prevCount  => prevCount + 1)
+        counter(prevCount  => prevCount + 1)
+
     }
 
     const sub = () => {

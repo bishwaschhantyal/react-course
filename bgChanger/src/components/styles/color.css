@@ -1,0 +1,68 @@
+.color-container {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+.color-card {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colors {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.color {
+    padding: 6px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#white {
+    border: 1px solid rgb(155, 152, 152);
+}
+
+#red {
+    background-color: red;
+    color: white;
+
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+#orange {
+    background-color: orange;
+    color: white;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#yellow {
+    background-color: yellow;
+}
