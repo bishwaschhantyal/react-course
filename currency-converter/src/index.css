@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --back-color:rgba(255, 255, 255, 0.498);
+}
+
+@theme {
+  --color-back-color: var(--back-color);
+}
